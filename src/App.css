@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+
+}
+
+.app{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+table{
+  border-collapse: collapse;
+}
+
+table input{
+  width: 100%;
+  transition: width 400ms ease-out;
+}
+
+th,td{
+  padding: 1rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+tr
+{
+  border-bottom: 1px solid gray;
+}
